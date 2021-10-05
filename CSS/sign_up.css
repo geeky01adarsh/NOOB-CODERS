@@ -40,6 +40,7 @@ body{
 .box input[type="text"]:hover, .box input[type="password"]:hover, .box input[type="email"]:hover{
     width: 280px;
     border-color: #2ecc71;
+    background: none;
 }
 
 .box textarea:hover{
