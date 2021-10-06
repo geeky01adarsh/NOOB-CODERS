@@ -17,6 +17,7 @@
 
 .container-fluid {
     padding: 3% 12%;
+    margin: 20px 5px;
 }
 
 /* Navigation bar */
@@ -40,6 +41,10 @@
     font-family: 'Montserrat-Light';
 }
 
+.navbar-align{
+    margin: 44px 3px;
+}
+
 /* Download Buttons */
 
 .download{
@@ -50,9 +55,9 @@
 
 /* Title Image */
 
-.title-img{
-    width: 60%;
-    transform: rotate(25deg);
+.recycle-img{
+    padding: 15px;
+    transform: rotate(-6deg);
 }
 
 
@@ -86,4 +91,10 @@
 
 .feat-icon:hover{
     color: #e05f08;
+}
+
+/* title */
+
+.title{
+    line-height: 2rem;
 }
