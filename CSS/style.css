@@ -156,3 +156,18 @@
     text-decoration: #fff;
     color: black;
 }
+
+
+/* contact */
+#contact{
+    padding: 7% 15%; 
+    margin: auto;
+    text-align: center;
+    background-color: #e46f21;
+}
+
+#footer{
+    background-color: #e46f21;
+    color: #fff;
+    text-align: center;
+}
