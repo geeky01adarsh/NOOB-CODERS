@@ -48,33 +48,6 @@ body{
     border-color: #2ecc71;
 
 }
-/* my-css */
-
-/* .box input[type="text"], .box input[type="password"], .box textarea, .box input[type="email"]{
-    margin: 20px auto;
-    padding: 9px;
-    background: none;
-    text-align: center;
-    border: 3px solid #3498db;
-    border-radius: 13px;
-    outline: none;
-    /* padding: 6px; */
-    
-
-    /* margin: 9px; */
-    /* display: block;
-} */
-
-/* .box input[type="text"]:focus, .box input[type="password"]:focus, .box textarea:focus, .box input[type="email"]:focus{
-    width: 110%;
-    margin: 20px auto;
-    padding: 9px;
-    background: none;
-    color: #fff;
-    outline: none;
-    border: 3px solid #2ecc2e;
-    border-color: #2ecc71;
-} */
 
 
 /* submit buttton */

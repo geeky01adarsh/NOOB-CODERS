@@ -3,28 +3,26 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: #34495e;
-
+    color: #fff;
 }
 
 .box{
-    width: 300px;
-    padding: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: 100px auto;
+    padding: 20px 84px;
     background: #191919;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
+/* prev-css */
 .box h1{
     color: white;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.box input[type="text"], .box input[type="password"]{
+.box input[type="text"], .box input[type="password"], .box input[type="email"], .box textarea{
     border: 0;
     background: none;
     display: block;
@@ -39,11 +37,20 @@ body{
     transition: 0.25s;
 }
 
-.box input[type="text"]:focus, .box input[type="password"]:focus{
+.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="email"]:hover{
     width: 280px;
     border-color: #2ecc71;
+    background: none;
 }
 
+.box textarea:hover{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+
+/* submit buttton */
 .box input[type="submit"], .box input[type="button"]{
     border: 0;
     background: none;
@@ -61,11 +68,7 @@ body{
 
 .box input[type="submit"]:hover, .box input[type="button"]:hover{
     background: #2ecc71;
-}
-
-#note{
-    color: white;
-    font-weight: 50;
+    text-decoration: none;
 }
 
 .box a{
